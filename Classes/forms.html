@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+    <h1 style="text-align: center;">Input Types</h1>
+    Enter Name-:<input type="text"><br><br>
+    Enter password-:<input type="password"><br><br>
+    Enter Date-:<input type="date"><br><br>
+    Enter Time-:<input type="time"><br><br>
+    Enter Number-:<input type="number"><br><br>
+    Enter Color-:<input type="color"><br><br><hr>
+    <h1>PlaceHolder & Labels</h1><br><br>
+    <label for="User-Name">User-Name-:</label>
+    <input type="text" placeholder="User-Name" id="User-Name">
+    <br><br>
+    <label for="password">Password</label>
+    <input type="password" placeholder="password" id="password">
+    <br><br>
+    <button
+    type="submit">Submit</button><br>
+    <hr>
+    <h1>CheckBox</h1>
+    <label for="age">Age</label>
+    <input type="checkbox" name="age" id="age" checked>
+    <hr>
+    <h1>Radio Button</h1>
+    <input type="radio" name="gender" id="male">
+    <label for="male" >Male</label>
+    <input type="radio" name="gender" id="female">
+    <label for="female" >Female</label><br>
+    <hr>
+    <h1>DropDown</h1>
+    <select name="languages" >
+        <option value="C" selected>C</option>
+        <option value="C++">C++</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+    </select>
+    <hr>
+    <h1>Range</h1>
+    <label for="Attendance">Attendance</label>
+    <input type="range" min="0" max="100" name="Attendance" step="10" value="80"><hr>
+    <h1>Text Area</h1>
+    <label for="">ENTER YOUR FEEDBACK: </label>
+    <textarea name="" id="" cols="29" rows="20"></textarea>
+</form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+/* 1. Universal Selector */
+*{
+    font-size: 20px;
+    /* padding: 0px;
+    margin: 0px; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Superheros{
+    text-decoration: line-through;
+    color: red;
+}
+
+.Batman {
+    color: blue;
+    background-color:thistle ;
+
+
+}
+
+.Iron-Man{
+    color: blueviolet;
+    background-color:thistle;
+    
+}
+
+p{
+    background-color: cadetblue;
+    display: inline;
+}
+
+input[type="password"]{
+    background-color: aqua;
+}
+
+input[type="text"]{
+    background-color: rebeccapurple;
+}
+
